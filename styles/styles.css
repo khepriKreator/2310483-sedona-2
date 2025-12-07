@@ -57,6 +57,13 @@ body {
 .button {
   border-radius: 4px;
   background-color: #756157;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #69574e;
 }
 
 .centered {
@@ -68,7 +75,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   height: 64px;
   padding: 0 70px 0 70px;
 }
@@ -76,6 +83,12 @@ body {
 .header-left {
   display: flex;
   align-items: center;
+  column-gap: 46px;
+  height: 100%;
+}
+
+.logo {
+  height: 100%;
 }
 
 .nav-links {
@@ -99,16 +112,45 @@ body {
 .header-right {
   display: flex;
   align-items: center;
+  column-gap: 32px;
+  height: 100%;
 }
 
-.search-button {
+.user-menu {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-button, .favorites-button {
+  vertical-align: sub;
+}
+
+.search-button::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
   background-image: url(../images/svg/search.svg);
   background-repeat: no-repeat;
 }
 
-.favorites-button {
+.favorites-button::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
   background-image: url(../images/svg/favorites.svg);
   background-repeat: no-repeat;
+}
+
+.header-right-button {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 34px;
 }
 
 /*WELCOME SECTION styles*/
