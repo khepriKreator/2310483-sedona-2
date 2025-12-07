@@ -47,11 +47,15 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin: 0;
+  padding: 0;
 }
 
 .small-text {
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
+  padding: 0;
 }
 
 .button {
@@ -68,6 +72,21 @@ body {
 
 .centered {
   text-align: center;
+}
+
+.background-blue {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.background-blue-light {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.background-blue-extralight {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 /*HEADER styles*/
@@ -125,7 +144,8 @@ body {
   padding: 0;
 }
 
-.search-button, .favorites-button {
+.search-button,
+.favorites-button {
   vertical-align: sub;
 }
 
@@ -170,7 +190,81 @@ body {
   margin: 0 auto;
 }
 
+.welcome-description {
+  padding: 69px 0 90px 0;
+}
+
+.welcome-description-title {
+  margin-bottom: 25px;
+}
+
 /*FEATURES SECTION styles*/
+
+.features {
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features-item {
+  width: 400px;
+  height: 385px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 85px;
+}
+
+.features-item-image {
+  width: 800px;
+  height: 385px;
+}
+
+.features-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  height: 100%;
+}
+
+.features-item-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+.content-divider {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 60px;
+}
+
+.content-divider-light {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content-divider-dark {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.features-item-description {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+}
 /*OPTIONS SECTION styles*/
 /*HOTEL SEARCH SECTION styles*/
 /*SUBSCRIPTION SECTION styles*/
