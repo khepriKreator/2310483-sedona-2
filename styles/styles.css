@@ -348,5 +348,27 @@ body {
 }
 
 /*HOTEL SEARCH SECTION styles*/
+
+.hotel-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 54px;
+  padding: 96px 0;
+}
+
+.hotel-search-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.hotel-search-button {
+  font-size: 20px;
+  line-height: 36px;
+  padding: 8px 50px;
+}
+
+
 /*SUBSCRIPTION SECTION styles*/
 /*FOOTER styles*/
