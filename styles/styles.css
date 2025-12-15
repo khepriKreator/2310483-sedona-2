@@ -162,6 +162,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.favorites-button {
+  position: relative;
+}
+
 .favorites-button::before {
   content: "";
   display: inline-block;
@@ -169,6 +173,18 @@ body {
   height: 18px;
   background-image: url("../images/svg/favorites.svg");
   background-repeat: no-repeat;
+}
+
+.favorites-count {
+  position: absolute;
+  left: 6px;
+  bottom: 14px;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #7DB54F;
+  border-radius: 10px;
+  padding: 5px 5px 5px 4px;
 }
 
 .header-right-button {
