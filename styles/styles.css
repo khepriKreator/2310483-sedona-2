@@ -83,21 +83,6 @@ body {
   text-align: center;
 }
 
-/* .background-blue {
-  color: #ffffff;
-  background-color: #82b3d3;
-}
-
-.background-blue-light {
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.2);
-}
-
-.background-blue-extralight {
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.12);
-} */
-
 /*HEADER styles*/
 
 .header {
@@ -142,8 +127,9 @@ body {
 }
 
 .nav-links-item:hover {
-  border-bottom: 2px solid #756257;
-  padding-bottom: 18px;
+  text-decoration: underline;
+  text-underline-offset: 24px;
+  text-decoration-color: #756257;
 }
 
 .header-right {
@@ -430,3 +416,56 @@ body {
 }
 
 /*FOOTER styles*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 70px 35px 82px;
+}
+
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 27px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vk-icon::before {
+  content: "";
+  display: block;
+  background-image: url("../images/svg/vk.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 24px;
+  height: 17px;
+}
+
+.telegram-icon {
+  content: "";
+  display: block;
+  background-image: url("../images/svg/telegram.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 18px;
+  height: 17px;
+}
+
+.youtube-icon {
+  content: "";
+  display: block;
+  background-image: url("../images/svg/youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 22px;
+  height: 17px;
+}
+
+.phone-number {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
