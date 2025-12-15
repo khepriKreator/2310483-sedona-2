@@ -67,7 +67,7 @@ body {
   padding: 0;
 }
 
-.button {
+.button-brown {
   border-radius: 4px;
   background-color: #756157;
   text-decoration: none;
@@ -75,8 +75,17 @@ body {
   font-weight: 700;
 }
 
-.button:hover {
-  background-color: #69574e;
+.button-brown:hover,
+.button-brown:focus {
+  background-color: #615048;
+}
+
+.button-brown:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-brown:disabled {
+  background-color: #E5E5E5;
 }
 
 .centered {
@@ -182,7 +191,7 @@ body {
   font-size: 10px;
   line-height: 10px;
   color: #ffffff;
-  background-color: #7DB54F;
+  background-color: #7db54f;
   border-radius: 10px;
   padding: 5px 5px 5px 4px;
 }
@@ -224,6 +233,7 @@ body {
 
 .features-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -297,6 +307,7 @@ body {
 
 .options-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -412,6 +423,7 @@ body {
   flex-grow: 1;
   font-size: 18px;
   line-height: 24px;
+  outline: none;
   border: none;
   border-radius: 4px 0 0 4px;
   padding: 14px 20px;
@@ -431,57 +443,96 @@ body {
   margin: 0;
 }
 
+.subscription-form-button:hover,
+.subscription-form-button:focus {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.subscription-form-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82b3d3;
+}
+
+.subscription-form-button:disabled {
+  background-color: #E5E5E5;
+}
+
 /*FOOTER styles*/
 
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 45px 70px 35px 82px;
+  padding: 45px 70px 35px 70px;
 }
 
 .socials-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 27px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.vk-icon::before {
-  content: "";
-  display: block;
-  background-image: url("../images/svg/vk.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 24px;
-  height: 17px;
+.socials-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47px;
+  height: 40px;
 }
 
-.telegram-icon {
-  content: "";
-  display: block;
-  background-image: url("../images/svg/telegram.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 18px;
-  height: 17px;
+.socials-icon {
+  fill: #83b3d3;
 }
 
-.youtube-icon {
-  content: "";
-  display: block;
-  background-image: url("../images/svg/youtube.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 22px;
-  height: 17px;
+.socials-icon:hover,
+.socials-icon:focus {
+  fill: #68a2ca;
+  outline: none;
+}
+
+.socials-icon:active {
+  opacity: 0.3;
+}
+
+.phone-numbers {
+  width: 500px;
+  text-align: center;
 }
 
 .phone-number {
+  display: block;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 45px;
   color: #000000;
   text-decoration: none;
+}
+
+.phone-number:hover,
+.phone-number:focus {
+  outline: none;
+  color: #756157;
+}
+
+.phone-number:active {
+  opacity: 0.3;
+}
+
+.html-academy-icon {
+  fill: #000000;
+}
+
+.html-academy-link:hover,
+.html-academy-link:focus,
+.html-academy-icon:hover,
+.html-academy-icon:focus {
+  outline: none;
+  fill: #756157;
+}
+
+.html-academy-link:active,
+.html-academy-icon:active {
+  opacity: 0.3;
 }
