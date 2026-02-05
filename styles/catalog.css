@@ -539,7 +539,7 @@
 }
 
 .hotel-card-image {
-  margin: 0 0 8px 0;
+  margin: 0 0 12px 0;
   padding: 0;
 }
 
@@ -575,7 +575,7 @@
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 8px 0;
+  padding: 10px 0;
   box-sizing: border-box;
 }
 
@@ -603,7 +603,20 @@
   text-transform: uppercase;
   white-space: nowrap;
   font-weight: 700;
-  padding: 8px 0;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.hotel-card-button-favoreted {
+  border: none;
+  border-radius: 4px;
+  background-color: #7DB54F;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 700;
+  padding: 10px 0;
   box-sizing: border-box;
 }
 
