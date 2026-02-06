@@ -420,6 +420,9 @@
 }
 
 .list-sort {
+  color: #333333;
+  font-size: 18px;
+  line-height: 21px;
   position: relative;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
@@ -430,8 +433,6 @@
   background-image: url("../images/catalog/svg/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
-  font-size: 18px;
-  line-height: 21px;
 }
 
 .list-sort:hover,
@@ -443,6 +444,12 @@
 
 .list-sort:disabled {
   opacity: 0.3;
+}
+
+.list-sort:open {
+  color: #333333;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .list-view {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
@@ -180,7 +180,11 @@
             Только полезная информация и никакого спама,<br />честное
             бойскаутское!
           </p>
-          <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <form
+            class="subscription-form"
+            action="https://echo.htmlacademy.ru/"
+            method="post"
+          >
             <input
               class="subscription-form-input"
               type="email"
@@ -198,7 +202,7 @@
       <footer class="footer">
         <ul class="socials-list">
           <li class="socials-item">
-            <a class="vk-icon" href="#">
+            <a class="vk-icon" href="https://vk.com/htmlacademy">
               <span class="visually-hidden"> Вконтакте </span>
               <svg
                 class="socials-icon"
@@ -217,7 +221,7 @@
             </a>
           </li>
           <li class="socials-item">
-            <a class="telegram-icon" href="#">
+            <a class="telegram-icon" href="https://t.me/htmlacademy">
               <span class="visually-hidden"> Телеграм </span>
               <svg
                 class="socials-icon"
@@ -234,7 +238,10 @@
             </a>
           </li>
           <li class="socials-item">
-            <a class="youtube-icon" href="#">
+            <a
+              class="youtube-icon"
+              href="https://www.youtube.com/user/htmlacademyru"
+            >
               <span class="visually-hidden"> YouTube </span>
               <svg
                 class="socials-icon"
@@ -257,7 +264,7 @@
             +7 (812) 812-12-12
           </a>
         </div>
-        <a class="html-academy-link" href="#">
+        <a class="html-academy-link" href="https://htmlacademy.ru/">
           <span class="visually-hidden"> Ссылка на HTML-академию </span>
           <svg
             class="html-academy-icon"
@@ -304,6 +311,138 @@
           </svg>
         </a>
       </footer>
+    </div>
+    <div class="modal-container modal-closed">
+      <div class="modal-window">
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+        <button class="modal-button-close"></button>
+        <form action="https://echo.htmlacademy.ru/" method="get" class="modal-form">
+          <div class="modal-check-in-wrapper">
+            <label for="check-in" class="modal-label"> Дата Заезда: </label>
+            <input
+              type="text"
+              id="check-in"
+              class="modal-input check-in-input"
+              value="27 апреля 2020"
+              placeholder="Укажите дату заезда"
+            />
+            <p class="check-in-input-alert">
+              Мы не можем отправить вас в прошлое.
+            </p>
+          </div>
+          <div class="modal-check-out-wrapper">
+            <label for="check-out" class="modal-label"> Дата Выезда: </label>
+            <input
+              type="text"
+              id="check-out"
+              value="1 сентября 2023"
+              placeholder="Укажите дату выезда"
+              class="modal-input check-out-input"
+            />
+            <p class="check-out-input-alert">
+              На эти даты есть свободные номера. Пока есть.
+            </p>
+          </div>
+          <div class="modal-form-counters">
+            <div class="modal-adult-counter">
+              <label for="adult" class="modal-label"> Взрослые: </label>
+              <div class="modal-counter">
+                <button type="button" class="decrease-button">
+                  <span class="visually-hidden">
+                    Укажите количество детей
+                  </span>
+                  <svg
+                    class="minus-icon"
+                    width="14"
+                    height="2"
+                    viewBox="0 0 14 2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0L0 2L14 2V0L0 0Z" />
+                  </svg>
+                </button>
+                <input
+                  type="text"
+                  id="children"
+                  class="modal-input modal-number-input"
+                  value="2"
+                />
+                <button type="button" class="increase-button">
+                  <span class="visually-hidden">
+                    Добавить количество детей
+                  </span>
+                  <svg
+                    class="plus-icon"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="modal-children-counter">
+              <label for="children" class="modal-label">
+                Дети:<button class="modal-tooltip">
+                  <p class="tooltip-window">
+                    Укажите количество детей,<br />которые будут с вами,
+                    возраст<br />которых от 6 до 18 лет. Дети<br />до 6 лет
+                    размещаются<br />бесплатно.
+                  </p>
+                  <span class="visually-hidden"> Показать подсказку </span>
+                </button>
+              </label>
+              <div class="modal-counter">
+                <button type="button" class="decrease-button">
+                  <span class="visually-hidden">
+                    Укажите количество детей
+                  </span>
+                  <svg
+                    class="minus-icon"
+                    width="14"
+                    height="2"
+                    viewBox="0 0 14 2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0L0 2L14 2V0L0 0Z" />
+                  </svg>
+                </button>
+                <input
+                  type="text"
+                  id="children"
+                  class="modal-input modal-number-input"
+                  value="2"
+                />
+                <button type="button" class="increase-button">
+                  <span class="visually-hidden">
+                    Добавить количество детей
+                  </span>
+                  <svg
+                    class="plus-icon"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"
+                      fill="#756157"
+                      fill-opacity="0.3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="modal-submit-button">Найти</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
