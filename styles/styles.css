@@ -576,6 +576,10 @@ input, button {
   z-index: 9;
 }
 
+.modal-closed {
+  display: none;
+}
+
 .modal-window {
   position: relative;
   background-color: #ffffff;
