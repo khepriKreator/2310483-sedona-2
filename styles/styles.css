@@ -1497,7 +1497,7 @@ body {
 /* LIST SECTION */
 
 .list-section {
-  padding: 50px 70px 60px 70px;
+  padding: 50px 69px 60px 70px;
 }
 
 /* HOTELS LIST HEADER */
@@ -1536,7 +1536,7 @@ body {
   position: relative;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
-  padding: 10px 20px 10px;
+  padding: 12px 20px 12px;
   appearance: none;
   min-width: 292px;
   margin: 0;
@@ -1639,7 +1639,7 @@ body {
 /* HOTELS LIST */
 
 .list-hotels-container {
-  padding: 36px 0;
+  padding: 36px 0 39px;
   margin: 0;
 }
 
@@ -1649,14 +1649,14 @@ body {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 18px 16px;
+  gap: 18px 18px;
 }
 
 .hotel-card-container {
-  padding: 20px 20px 18px 20px;
+  padding: 20px;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
-  width: 340px;
+  width: 342px;
   min-height: 438px;
   box-sizing: border-box;
 }
@@ -1687,7 +1687,7 @@ body {
 .hotel-card-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px 20px;
+  gap: 16px 20px;
 }
 
 .hotel-card-type,
@@ -1714,7 +1714,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  padding: 10px 4px;
+  padding: 6px 4px 10px;
   box-sizing: border-box;
 }
 
@@ -1745,7 +1745,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  padding: 10px 4px;
+  padding: 7px 4px;
   box-sizing: border-box;
 }
 
@@ -1765,7 +1765,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  padding: 10px 6px;
+  padding: 7px 6px;
   box-sizing: border-box;
 }
 
