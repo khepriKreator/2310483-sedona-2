@@ -375,6 +375,10 @@ body {
   margin: 0;
 }
 
+.features-item-with-image .features-item-description {
+  color: #ffffff;
+}
+
 /*OPTIONS SECTION styles*/
 
 .options-invitation {
